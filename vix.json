@@ -1,0 +1,31 @@
+{
+  "name": "gateway_app",
+  "namespace": "vix",
+  "version": "0.1.0",
+  "type": "header-only",
+  "include": "include",
+  "license": "MIT",
+  "description": "API gateway kit built on top of vix/api_app for routing, auth, and edge policies.",
+  "keywords": [
+    "cpp",
+    "vix",
+    "gateway",
+    "reverse-proxy",
+    "api",
+    "routing",
+    "rate-limit"
+  ],
+  "repository": "https://github.com/vixcpp/gateway_app",
+  "authors": [
+    {
+      "name": "Gaspard Kirira",
+      "github": "Gaspardkirira"
+    }
+  ],
+  "deps": [
+    {
+      "id": "vix/api_app",
+      "version": "0.1.0"
+    }
+  ]
+}
